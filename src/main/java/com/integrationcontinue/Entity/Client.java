@@ -22,11 +22,12 @@ public class Client {
         super();
     }
 
-    public Client(Integer id, String nom, String prenom, String identifiant) {
+    public Client(Integer id, String nom, String prenom, String identifiant, Contrat idContrat) {
         this.id = id;
         this.nom = nom;
         this.prenom = prenom;
         this.identifiant = identifiant;
+        this.idContrat = idContrat;
     }
 
 
